@@ -62,6 +62,10 @@ http://localhost:5174
 
     Giao diện người dùng sẽ thực hiện xác thực và gọi API đến backend đang chạy qua địa chỉ VITE_API_URL.
 
+    Giao diện gồm 2 trang: 
+    - /: Trang Dashboard thông tin chung lấy từ api /analysis
+    - /lead: Trang CRUD cho lead
+
 ## 7. Ghi chú
 
     Đảm bảo frontend và backend đang chạy trên các port khớp với file .env và application.yml.
